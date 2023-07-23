@@ -29,7 +29,7 @@ public class Ejercicio1 {
     			if(cantidadVehiculos > 0) {
     				contadorVehiculos = 1;
     				while(contadorVehiculos <= cantidadVehiculos) {
-    					System.out.println("\nIngrese la cantidad de vueltas que dio el vehiculo " + contadorVehiculos);
+    					System.out.println("Ingrese la cantidad de vueltas que dio el vehiculo " + contadorVehiculos);
     					cantidadVueltas = entrada.nextInt();
     					contadorVueltas = 1;
     					tiempoTotal = 0;
