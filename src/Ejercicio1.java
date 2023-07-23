@@ -29,7 +29,7 @@ public class Ejercicio1 {
     			if(cantidadVehiculos > 0) {
     				contadorVehiculos = 1;
     				while(contadorVehiculos <= cantidadVehiculos) {
-    					System.out.println("Ingrese la cantidad de vueltas que dio el vehiculo " + contadorVehiculos);
+    					System.out.println("\nIngrese la cantidad de vueltas que dio el vehiculo " + contadorVehiculos);
     					cantidadVueltas = entrada.nextInt();
     					contadorVueltas = 1;
     					tiempoTotal = 0;
@@ -41,9 +41,9 @@ public class Ejercicio1 {
     							velocidadPromedio = longitud / tiempoTotal;
     							contadorVueltas++;
     						}
-    						System.out.println("La velocidad promedio del vehiculo " + contadorVehiculos + " es: " + velocidadPromedio + " kms/h");
+    						System.out.println("\nLa velocidad promedio del vehiculo " + contadorVehiculos + " es: " + velocidadPromedio + " kms/h\n");
     					}else {
-    						System.out.println("El vehiculo " + contadorVehiculos + " aun no ha registrado vueltas");
+    						System.out.println("\nEl vehiculo " + contadorVehiculos + " aun no ha registrado vueltas\n");
     					}
     					contadorVehiculos ++;
     				}
